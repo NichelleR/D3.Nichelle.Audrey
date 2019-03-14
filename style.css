@@ -1,0 +1,12 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "futura";
+}
+
+body {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    font-family: "futura";
+}
