@@ -4,11 +4,10 @@ h1 {
     font-family: "futura";
 }
 
+h3 {
+    text-align: left;
+}
+
 body {
-    position: absolute;
-    justify-content: center;
-    text-align: center;
     font-family: "futura";
-    /* top: 5%; */
-    left: 12.5%
 }
