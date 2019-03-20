@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
   </head>
 
 
@@ -46,34 +48,28 @@
     <!-- Second Container -->
     <div class = "container-fluid bg-2 text-center">
         <span class="a">  
-          <h3 class = "margin">A, C, G, & T</h3><h5>...and U</h5>
+          <h3 class = "margin">A, C, G, & T</h3>
+          <p>Amino acids are composed of three nucleotides, which is referred to as a codon. This codon is transcripted into RNA (Ribonucleic Acid), and then 
+            translated into its respective amino acid. There are a total of 20 amino acids that can be translated numerous ways from that first strand of DNA we started with.</p>
         </span>
         <span class="b"> 
             <div class = "container">
-                <select id="selectpicker" id="selectaa">
-                  <option selected value="Isoleucine">Isoleucine</option>
-                  <option selected value="Leucine">Leucine</option>
-                  <option selected value="Valine">Valine</option>
-                  <option selected value="Methionine">Methionine</option>
-                  <option selected value="Glycine">Glycine</option>
-                  <option selected value="Alanine">Alanine</option>
-                  <option selected value="Serine">Serine</option>
-                  <option selected value="Threonine">Threonine</option>
-                  <option selected value="Cysteine">Cysteine</option>
-                  <option selected value="Proline">Proline</option>
-                  <option selected value="Asparagine">Asparagine</option>
-                  <option selected value="AsparticAcid">Aspartic Acid</option>
-                  <option selected value="selectfrom">Select Amino Acid</option>
-                </div>        
+              <button class="glycine">Glycine</button>
+              <button class="leucine">Leucine</button>
+              <div class="glycinepic"></div>
+              <div class="leucinepic"></div>
+            </div> 
+                     
         </span>
         <span class="c"> 
+            
             <svg width="350" height="100">
             </svg>
         </span>
     </div>
 
 
-
+  <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
 

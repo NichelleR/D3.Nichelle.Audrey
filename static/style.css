@@ -50,23 +50,23 @@ body {
   span.a {
     display: inline-block; /* the default for span */
     width: 350px;
-    height: 100px;
-    padding: 50px;
+    height: 25px;
+    padding: 10px;
     text-align: center
   }
   
   span.b {
     display: inline-block;
     width: 350px;
-    height: 100px;
-    padding: 50px;
+    height: 25px;
+    padding: 10px;
     text-align: center
   }
   
   span.c {
     display: inline-block;
     width: 350px;
-    height: 100px;
-    padding: 50px;
+    height: 25px;
+    padding: 10px;
     text-align: center
   }
