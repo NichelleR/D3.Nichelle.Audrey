@@ -2,25 +2,25 @@ body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
-    text-align: center;
-    margin: auto;
+    /* margin: auto; */
   }
-  a {
-    color: inherit;
-  }
+
   img {
     border-radius: 50%;
   }
   p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
+  .margin {margin-bottom: 15px;}
   .bg-1 { 
     background-color: #6d9eeb; /* Blue */
     color: #ffffff;
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: center
   }
   .bg-2 { 
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
-  }
+}
   .bg-3 { 
     background-color: #ffffff; /* White */
     color: #555555;
@@ -34,15 +34,39 @@ body {
     padding-bottom: 70px;
   }
   .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 5px;
+  }
+  .navbar-brand {
+    color: #474e5d !important;
     text-align: left
   }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+
+  span.a {
+    display: inline-block; /* the default for span */
+    width: 350px;
+    height: 100px;
+    padding: 50px;
+    text-align: center
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 350px;
+    height: 100px;
+    padding: 50px;
+    text-align: center
+  }
+  
+  span.c {
+    display: inline-block;
+    width: 350px;
+    height: 100px;
+    padding: 50px;
+    text-align: center
   }
