@@ -1,7 +1,4 @@
 // Getting a reference to the button on the page with the id property set to `click-me`
-console.log("HI")
-var button = d3.select("#glycine");
-
 
 var button = d3.select("#glycine");
 button.on("click", function() {
@@ -58,3 +55,20 @@ button11.on("click", function() {
   d3.select(".asparticacidpic").html("<img src='static/Aspartic Acid.svg' alt='svg'>");
 });
 
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
